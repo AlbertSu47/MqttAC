@@ -1,0 +1,52 @@
+void setup() {
+  Serial.begin(9600);
+  Serial.write(16);
+  Serial.write(26);
+  Serial.write(0);
+  Serial.write(4);
+  Serial.write(77);
+  Serial.write(81);
+  Serial.write(84);
+  Serial.write(84);
+  Serial.write(4);
+  Serial.write(2);
+  Serial.write(0);
+  Serial.write(60);
+  Serial.write(0);
+  Serial.write(14);
+  Serial.write(77);
+  Serial.write(81);
+  Serial.write(84);
+  Serial.write(84);
+  Serial.write(95);
+  Serial.write(70);
+  Serial.write(88);
+  Serial.write(95);
+  Serial.write(67);
+  Serial.write(108);
+  Serial.write(105);
+  Serial.write(101);
+  Serial.write(110);
+  Serial.write(116);
+}
+
+void loop() {
+  delay(3000);
+  //////////////////
+  Serial.write("0");
+  Serial.write(14);
+  Serial.write(0);
+  Serial.write(6);
+  Serial.write(104);
+  Serial.write(105);
+  Serial.write(109);
+  Serial.write(113);
+  Serial.write(116);
+  Serial.write(116);
+  Serial.write(109);
+  Serial.write(113);
+  Serial.write(116);
+  Serial.write(116);
+  Serial.write(102);
+  Serial.write(120);
+}
